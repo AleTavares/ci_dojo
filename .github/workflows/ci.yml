@@ -13,8 +13,10 @@ jobs:
             python-version: '3.10'
         - name: intalar dependencias
           run: pip install -r requirements.txt
-        - name: intalar dependencias
-          run: pytest test_app.py
+        - name: teste unitario
+          run: pytest test /test_app.py
+
+
 
             
                 
