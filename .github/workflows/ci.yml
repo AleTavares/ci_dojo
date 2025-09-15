@@ -7,15 +7,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Comeco 
-            run: |
-            echo 
+          run: |
+            echo "workflow iniciando"
 
-    integration_test:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Comeco 
-              run: |
-              echo 
+
+              
+               
 
 
         
