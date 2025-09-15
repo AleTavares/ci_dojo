@@ -1,11 +1,21 @@
 name: meu primeiro ci
-on:
-    push:
-     branch:
-        -main
+
+on: [push, pull_request]
 
 jobs:
     build:
-        runs-on: ububtu-latest
+        runs-on: ubuntu-latest
         steps:
+        - name: Comeco 
+            run: |
+            echo 
+
+    integration_test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Comeco 
+              run: |
+              echo 
+
+
         
