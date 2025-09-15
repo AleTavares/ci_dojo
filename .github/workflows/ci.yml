@@ -8,8 +8,15 @@ jobs:
         steps:
         - uses: actions/checkout@v4
         - name: config python
-          uses: actions/python_setup@v3
-          with: pythonv -version
+          uses: actions/python-setup@v3
+          with: 
+            python-version: '3.10'
+        - name: intalar dependencias
+          run: pip install -r requirements.txt
+        - name: intalar dependencias
+          run: pytest test_app.py
+
+            
                 
 
               
