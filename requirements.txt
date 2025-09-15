@@ -1,5 +1,5 @@
-Flask==2.3.0
+flask==2.3.0
 pytest==7.1.2
 flake8==5.0.4
 black==22.6.0
-werkzeug==
+werkzeug>=2.3.0
