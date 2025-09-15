@@ -1,11 +1,11 @@
-name: AulaDoJo
+name: meu primeiro ci
+on:
+    push:
+     branch:
+        -main
 
-on: [push, pull_request]
-
-test:
- runs-on: ubuntu-latest
- 
-
-    
-
-
+jobs:
+    build:
+        runs-on: ububtu-latest
+        steps:
+        
