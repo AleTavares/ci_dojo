@@ -3,12 +3,13 @@ name: meu primeiro ci
 on: [push, pull_request]
 
 jobs:
-    build:
+    test:
         runs-on: ubuntu-latest
         steps:
-        - name: Comeco 
-          run: |
-            echo "workflow iniciando"
+        - uses: actions/checkout@v4
+        - name: config python
+          uses: actions/python_setup@v3
+          with: pythonv -version
                 
 
               
