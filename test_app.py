@@ -9,3 +9,4 @@ def test_healthcheck():
     response = app.test_client().get('/healthcheck')
     assert response.status_code == 200
     assert response.data == b'{"status": "ok"}'
+    
